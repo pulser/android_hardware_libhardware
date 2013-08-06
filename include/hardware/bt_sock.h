@@ -19,9 +19,8 @@
 
 __BEGIN_DECLS
 
-#define BTSOCK_FLAG_ENCRYPT   (1)
-#define BTSOCK_FLAG_AUTH      (1 << 1)
-#define BTSOCK_FLAG_AUTH_HIGH (1 << 2)
+#define BTSOCK_FLAG_ENCRYPT 1
+#define BTSOCK_FLAG_AUTH (1 << 1)
 
 typedef enum {
     BTSOCK_RFCOMM = 1,
